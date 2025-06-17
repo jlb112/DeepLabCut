@@ -13,11 +13,11 @@
 Metrics are currently computed using pycocotools, which can be installed with `pypi`
 (see https://github.com/ppwwyyxx/cocoapi/tree/master).
 """
-from datetime import datetime
+
 from __future__ import annotations
 
 from unittest.mock import Mock, patch
-
+from datetime import datetime
 import numpy as np
 
 try:
